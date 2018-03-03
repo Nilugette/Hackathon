@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+*{box-sizing: border-box;}
+.container
+{
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+}
+.clear-float:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+body { 
+	font-size: 18px;
+	margin:auto; }
+main
+{
+	background-color: rgba(232,234,232,0.5);
+	
+}
+#corp
+{
+	background : url("../img/Fond.jpg") center top no-repeat;
+	background-size : medium;
+}
+li
+{
+	list-style-type: none;
+}
+h1, h2,h3, h4 { 
+	text-align:center;
+	margin : 0;
+	font-family : 'Dancing Script', cursive ; }
+h1 a
+{
+	font-size : 5rem;
+	color: #000;
+	text-shadow: 2px 2px 3px #fff;
+}
+h2
+{
+	font-size: 3rem;
+}
+h3
+{
+    
+    color:#000;
+    font-size:1.2em;
+    margin-bottom:0px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+header
+{
+	background-color: rgba(90,185,170,0.5);
+}
+.slides li a{
+
+}
+a img.img-slider{
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	float: left;
+	margin-right: 30px;
+}
+#slider .desciption{
+	width: 60%;
+	display: inline-block;
+}
+.desciption h2{
+	text-align: center;
+	font-size: 4rem;
+}
+footer
+{
+height: 300px;
+background-color:rgba(145,155,130,0.5) ;
+text-align: center;
+}
+footer img
+{
+	width : 6%;
+}
+article img{
+	width: 50%;
+	float: left;
+	margin: 0 30px 30px 0;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px rgba(255,255,255,0.8);
+}
+article p
+{
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+	font-size: 1.5rem;
+}
